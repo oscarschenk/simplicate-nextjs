@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button, Spacer, Progress } from "@nextui-org/react";
 import PDFPreviewList from "../components/PdfPreviewList";
 
-const pdfPreview = () => {
+const PdfPreview = () => {
   const [indeterminated, setIndeterminated] = useState(false);
   setTimeout(() => {
     setIndeterminated(true);
@@ -119,4 +119,4 @@ const pdfPreview = () => {
   );
 };
 
-export default pdfPreview;
+export default PdfPreview;
