@@ -17,7 +17,9 @@ export default function pdfPreview(toggled) {
       <div className="flex items-center justify-center h-screen w-screen">
         <div className="bg-gradient-to-br from-gray-100 to-white w-5/6 max-w-screen-xl py-20 px-8 rounded-xl shadow-2xl h-5/6 text-white flex items-center justify-center flex-col overflow-y-auto">
           <h1 className="text-gray-600 text-3xl">PDF Data Preview</h1>
-          <p>Deze data wordt gebruikt om de PDF mee te genereren</p>
+          <p className="text-gray-800">
+            Deze data wordt gebruikt om de PDF te genereren
+          </p>
           <div className="w-full h-full">
             <motion.div
               initial="pageInitial"

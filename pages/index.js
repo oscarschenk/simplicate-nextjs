@@ -19,21 +19,21 @@ export default function Home() {
       </Head>
 
       <div className="flex items-center justify-center">
-        <div className="bg-gradient-to-br from-gray-100 opacity-90 to-white w-1/3 p-20 rounded-xl shadow-2xl text-white flex items-center justify-center flex-col">
+        <div className="bg-gradient-to-br from-gray-100 opacity-90 to-white w-1/3 p-8 rounded-xl shadow-2xl text-white flex items-center justify-center flex-col">
           <div className="-mt-8">
             <Image src={"/logos.png"} width={300} height={140} />
           </div>
 
           <div className="px-2 py-4 flex justify-center">
             <p className="text-black text-sm">
-              Lorem ipsum dolor sit amet. Et nemo rerum qui quaerat itaque eos
-              quam officia sit aliquid ullam eum amet dicta qui aliquam animi At
-              culpa autem. Et porro officiis eos illo odio ea optio consequuntur
-              aut culpa nihil et minus corporis in internos voluptatem et
-              voluptates dolor. Eos repellat modi vel repellendus ducimus id
-              optio officia qui molestiae ratione est quaerat numquam rem quidem
-              velit. Est exercitationem nemo ab aliquid aut culpa cumque ut
-              beatae dolorum ea repudiandae aliquid.
+              Welkom bij deze demo van de Simplicate PDF Generator App! Deze
+              demo is bedoelt om een soort idee te geven van hoe de werkelijke
+              app zou kunnen werken. Natuurlijk hoeft het eindresultaat er
+              absoluut niet zo uit te zien / deze functionaliteit te hebben. De
+              structuur is gebaseerd op de screenshot die normaal mee wordt
+              gestuurd met een tussentijdse factuur om te laten zien hoe we er
+              voor staan qua gewerkte uren / budget. Log hieronder in om verder
+              te gaan. Alle inlog gegevens zijn geldig.
             </p>
           </div>
           <div className="w-full mt-4">
