@@ -13,7 +13,7 @@ export default function PDFPreviewList(toggled) {
     return (
       <div
         key={item.dienst}
-        className="bg-gray-800 p-8 rounded-lg w-full hover:-translate-y-1 hover:scale-105 hover:bg-gray-900 duration-300 cursor-pointer shadow-2xl"
+        className="bg-gray-800 p-8 rounded-lg w-full hover:scale-105 hover:bg-gray-900 duration-300 cursor-pointer shadow-2xl"
       >
         <div className="mb-4">
           <h1 className="text-2xl">{item.dienst}</h1>
