@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex items-center justify-center">
         <div className="bg-gradient-to-br from-gray-100 opacity-90 to-white w-1/3 p-8 rounded-xl shadow-2xl text-white flex items-center justify-center flex-col">
           <div className="-mt-8">
-            <Image src={"/logos.png"} width={300} height={140} />
+            <Image src={"/logos.png"} width={320} height={140} />
           </div>
 
           <div className="px-2 py-4 flex justify-center">

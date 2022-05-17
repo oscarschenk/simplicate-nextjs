@@ -33,14 +33,11 @@ export default function singleProject() {
               <div className="grid gap-6 grid-cols-1 grid-rows-6 mt-8 -mb-12">
                 <ServicesList />
               </div>
-              <Button className="transition ease-in-out delay-20 bg-violet-400 hover:-translate-y-1 hover:scale-105 hover:bg-sky-500 duration-300 cursor-pointer shadow-2xl">
-                Selecteer alle diensten
-              </Button>
-              <Spacer />
+
               <Link href="/pdf-preview">
                 <a>
                   <Button className="transition ease-in-out delay-20 bg-violet-400 hover:-translate-y-1 hover:scale-105 hover:bg-sky-500 duration-300 cursor-pointer shadow-2xl">
-                    Door gaan
+                    Volgende
                   </Button>
                 </a>
               </Link>

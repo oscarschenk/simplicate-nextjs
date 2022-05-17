@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { data } from "../public/data.js";
 import NumberFormat from "react-number-format";
-import { Progress } from "@nextui-org/react";
+import { Progress, Switch } from "@nextui-org/react";
 import { motion } from "framer-motion";
 
 export default function PDFPreviewList(toggled) {
@@ -13,15 +13,16 @@ export default function PDFPreviewList(toggled) {
     return (
       <div
         key={item.dienst}
-        className="bg-gray-800 p-8 rounded-lg w-full hover:scale-105 hover:bg-gray-900 duration-300 shadow-2xl"
+        className="bg-gray-100 p-8 rounded-lg w-full hover:scale-105  duration-300 shadow-2xl"
       >
-        <div className="mb-4">
-          <h1 className="text-2xl">{item.dienst}</h1>
+        <div className="mb-4 flex flex-row justify-between">
+          <h1 className="text-2xl text-gray-900">{item.dienst}</h1>
+          <Switch checked={true} color="success" />
         </div>
         <div className="flex flex-row justify-around">
           <div className="flex flex-col">
             <div>
-              <p>{item.uren.naam}</p>
+              <p className="text-gray-800">{item.uren.naam}</p>
             </div>
             <div className="flex flex-row">
               <div className="flex flex-col justify-around gap-2">
@@ -70,7 +71,7 @@ export default function PDFPreviewList(toggled) {
                   </motion.div>
                 )}
                 <div className="flex flex-row">
-                  <div className="grid gap-4 grid-cols-3 grid-rows bg-gray-200 text-gray-900 p-4 rounded-lg">
+                  <div className="grid gap-4 grid-cols-3 grid-rows bg-gray-600 text-gray-50 p-4 rounded-lg">
                     <div>{item.uren.budget.naam}</div>
                     <div>{item.uren.budget.uren}</div>
                     <div>
@@ -108,7 +109,7 @@ export default function PDFPreviewList(toggled) {
           </div>
           <div className="flex flex-col">
             <div>
-              <p>{item.gefactureerd.naam}</p>
+              <p className="text-gray-800">{item.gefactureerd.naam}</p>
             </div>
             <div className="flex flex-row">
               <div className="flex flex-col justify-around gap-2">
@@ -161,7 +162,7 @@ export default function PDFPreviewList(toggled) {
                   </motion.div>
                 )}
                 <div className="flex flex-row">
-                  <div className="grid gap-4 grid-cols-2 grid-rows-4 bg-gray-200 text-gray-900 p-4 rounded-lg">
+                  <div className="grid gap-4 grid-cols-2 grid-rows-4 bg-gray-600 text-gray-50 p-4 rounded-lg">
                     <div>
                       <p>Verwacht:</p>
                     </div>
