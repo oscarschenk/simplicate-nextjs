@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button, Spacer, Progress } from "@nextui-org/react";
 import PDFPreviewList from "../components/PdfPreviewList";
-import Link from "next/link";
 
 export default function pdfPreview(toggled) {
   const [indeterminated, setIndeterminated] = useState(false);
