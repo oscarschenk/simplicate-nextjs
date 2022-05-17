@@ -44,7 +44,7 @@ const pdfPreview = () => {
                       size={"lg"}
                       className="transition ease-in-out delay-20 text-white bg-green-600 hover:-translate-y-1 hover:scale-105 hover:bg-sky-500 duration-300 cursor-pointer shadow-2xl"
                     >
-                      Genereer PDF
+                      Genereer PDF nu
                     </Button>
                   </a>
                 </div>
