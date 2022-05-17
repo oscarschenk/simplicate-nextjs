@@ -25,16 +25,25 @@ export default function Home() {
           </div>
 
           <div className="px-2 py-4 flex justify-center">
-            <p className="text-black text-sm">
-              Welkom bij deze demo van de Simplicate PDF Generator App! Deze
-              demo is bedoelt om een soort idee te geven van hoe de werkelijke
-              app zou kunnen werken. Natuurlijk hoeft het eindresultaat er
-              absoluut niet zo uit te zien / deze functionaliteit te hebben. De
-              structuur is gebaseerd op de screenshot die normaal mee wordt
-              gestuurd met een tussentijdse factuur om te laten zien hoe we er
-              voor staan qua gewerkte uren / budget. Log hieronder in om verder
-              te gaan. Alle inlog gegevens zijn geldig.
-            </p>
+            <div className="flex flex-col">
+              <p className="text-black text-sm mb-2">
+                Welkom bij deze demo van de Simplicate PDF Generator App! Deze
+                demo is bedoelt om een soort idee te geven van hoe de werkelijke
+                app zou kunnen werken. De app is op dit moment alleen gemaakt
+                voor een laptop scherm of groter, op volledige grote.
+              </p>
+              <p className="text-black text-sm  mb-2">
+                Natuurlijk hoeft het eindresultaat er absoluut niet zo uit te
+                zien / deze functionaliteit te hebben. De structuur is gebaseerd
+                op de screenshot die normaal mee wordt gestuurd met een
+                tussentijdse factuur om te laten zien hoe we er voor staan qua
+                gewerkte uren / budget.
+              </p>
+              <p className="text-black text-sm">
+                Log hieronder in om verder te gaan. Alle inlog gegevens zijn
+                geldig.
+              </p>
+            </div>
           </div>
           <div className="w-full mt-4">
             <Input

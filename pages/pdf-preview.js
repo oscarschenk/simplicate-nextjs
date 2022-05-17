@@ -34,7 +34,7 @@ export default function pdfPreview(toggled) {
                 },
               }}
             >
-              <div className="grid gap-6 grid-cols-2 grid-rows-3 my-8">
+              <div className="md:grid md:gap-6 md:grid-cols-2 md:grid-rows-3 grid-cols-1 gap-6 grid-rows-5 my-8">
                 <PDFPreviewList />
               </div>
               <Link href="/pdf-preview">

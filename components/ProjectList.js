@@ -18,7 +18,7 @@ export default function ProjectList() {
         },
       }}
     >
-      <div className="grid gap-6 grid-cols-1 grid-rows-4 mt-8">
+      <div className="grid gap-4 grid-cols-1 grid-rows-4 mt-8">
         <Link href="/single-project-page">
           <a>
             <div className="py-4 px-8 rounded-lg transition ease-in-out delay-20 bg-sky-500 hover:-translate-y-1 hover:scale-105 hover:bg-violet-400 duration-300 cursor-pointer shadow-2xl">
